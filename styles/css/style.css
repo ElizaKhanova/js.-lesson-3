@@ -1,0 +1,55 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  border: 2px solid rgba(188, 153, 240, 0.297);
+}
+
+.book__img {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  width: 100px;
+  height: 140px;
+  justify-self: center;
+  border: 1px solid gainsboro;
+  margin: 2%;
+}
+
+.book__title {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  justify-self: start;
+  align-self: center;
+}
+
+.book__author {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+.book__price {
+  grid-row: 1/3;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+
+.payment {
+  margin-top: 3%;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment__promo-code {
+  margin-left: 100px;
+}
+
+.payment__final-price {
+  margin-right: 100px;
+}/*# sourceMappingURL=style.css.map */

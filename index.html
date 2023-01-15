@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Корзина</h1>
+    <section class="book">
+        <img src="./images/bookOne.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">Сборник рассказов</p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"><span class = "price">850 </span> руб</p>
+    </section>
+    <section class="book">
+        <img src="./images/bookTwo.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">Убийство Командора. Книга 1</p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"><span class = "price">350 </span> руб</p>
+    </section>
+    <section class="book">
+        <img src="./images/bookThree.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">Убийство Командора. Книга 2 </p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"><span class = "price">487 </span> руб</p>
+    </section>
+    <section class="book">
+        <img src="./images/bookFour.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">Бесцветный Цкупу Тадзаки и годы его странствий</p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"><span class = "price">390 </span> руб</p>
+    </section>
+    <section class="book">
+        <img src="./images/bookFive.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">О чем я говорю, когда говоорю о беге</p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"><span class = "price">625 </span> руб</p>
+    </section>
+    <section class="book">
+        <img src="./images/bookSix.jpg" alt="книга 1" class="book__img">
+        <p class="book__title">Слушай песню ветра. Пинбол 1973</p>
+        <p class="book__author">Харуки Мураками</p>
+        <p class="book__price"> <span class = "price">753 </span> руб</p>
+    </section>
+    <div class="payment">
+        <button class="payment__promo-code" onClick= calkDiscount()>Применить купон 20%</button>
+        <p class="payment__final-price">Итого: <span id="total"></span> </p>
+    </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
