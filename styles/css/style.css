@@ -37,6 +37,9 @@
   grid-column: 3/4;
   align-self: center;
   justify-self: center;
+  color: rgb(159, 55, 188);
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .payment {
@@ -48,8 +51,24 @@
 
 .payment__promo-code {
   margin-left: 100px;
+  width: 50%;
+  height: 7vh;
+  background-color: rgb(149, 94, 243);
+  font-size: large;
+  font-weight: 400;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+.payment__promo-code:hover {
+  background-color: rgb(84, 27, 114);
+  cursor: pointer;
+  color: white;
 }
 
 .payment__final-price {
   margin-right: 100px;
+  color: rgb(159, 55, 188);
+  font-size: 20px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
